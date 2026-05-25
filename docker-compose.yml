@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  pss-server:
+    build: .
+    ports:
+      - "${PORT:-5700}:5700"
+    environment:
+      - PORT=5700
+      - HOST=0.0.0.0
+      - COMPANY_NAME=${COMPANY_NAME:-PureSoft Solutions}
+      - SECRET_KEY=${SECRET_KEY}
+    volumes:
+      - pss_data:/app/data/pss-tracker
+      - pss_logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5700/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  pss_data:
+  pss_logs:
