@@ -4,6 +4,7 @@ WORKDIR /app/aw-webui
 COPY aw-webui/package*.json ./
 RUN npm install
 COPY aw-webui/ ./
+RUN mkdir -p static && cp media/logo/logo.png static/logo.png && cp media/logo/logo.svg static/logo.svg || true
 RUN npm run build
 
 # Stage 2: Python Runtime for aw-server

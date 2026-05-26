@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <!-- Verify with https://csp-evaluator.withgoogle.com/ -->
   <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self' <%= htmlWebpackPlugin.options.templateParameters.cspDefaultSrc %> https://api.github.com/repos/pss-tracker/pss-tracker/releases/latest; img-src 'self' data:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; object-src 'none'; script-src 'self' 'unsafe-eval'">
+    content="default-src 'self' <%= htmlWebpackPlugin.options.templateParameters.cspDefaultSrc %> https://api.github.com/repos/pss-tracker/pss-tracker/releases/latest; img-src 'self' data:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; object-src 'none'; script-src 'self' 'unsafe-eval'">
 </head>
 
 <body>
