@@ -20,26 +20,16 @@ div
     div.col-md-6
       h4 Spread the word
       p
-        | Nothing is as motivating as getting pss-tracker into the hands of users.
-        | By sharing it you get us to make pss-tracker even better!
+        | Nothing is as motivating as getting PSS Tracker into the hands of users.
+        | By sharing it you get us to make PSS Tracker even better!
       ul
-        li Give us a like and a review on #[a(href="https://alternativeto.net/software/pss-tracker/") AlternativeTo]
-        li Vote on us at #[a(href="https://www.producthunt.com/posts/pss-tracker") ProductHunt]
-        li Follow us and spread the word on #[a(href="https://twitter.com/pss-trackerIt") Twitter] and #[a(href="https://www.facebook.com/pss-tracker") Facebook]
-        li Star us on #[a(href="https://github.com/pss-tracker/pss-tracker") GitHub]
+        li Star us on #[a(href="https://github.com/PSS-Omkar/psstracker") GitHub]
+        li Report issues on the #[a(href="https://github.com/PSS-Omkar/psstracker/issues") Issue Tracker]
 
     div.col-md-6
       h4 Support us!
       p
-        | Do you like pss-tracker? Has it helped you? Help us help you by donating!
-        | You can donate to us via:
-      ul
-        li #[a(href="https://www.patreon.com/erikbjare") Patreon]
-        li #[a(href="https://opencollective.com/pss-tracker") Open Collective]
-        li #[a(href="https://liberapay.com/pss-tracker/") Liberapay]
-        li #[a(href="https://pss-tracker.net/donate/") Other methods] (incl. cryptocurrency)
-      p
-        | For more info, please visit the #[a(href="https://pss-tracker.net/donate/") donation page on the website].
+        | Do you like PSS Tracker? Help us by contributing to the codebase on GitHub.
 
   hr
 
@@ -48,17 +38,14 @@ div
       h4 Resources
       p
         ul
-          li #[a(href="https://pss-tracker.net/") Website]
-          li #[a(href="https://pss-tracker.readthedocs.org/") Documentation]
-          li #[a(href="https://forum.pss-tracker.net/") Forum]
-          li #[a(href="https://discord.gg/vDskV9q") Discord]
-          li #[a(href="https://github.com/pss-tracker/pss-tracker") GitHub]
+          li #[a(href="https://psstracker.phylon.in/") Dashboard]
+          li #[a(href="https://github.com/PSS-Omkar/psstracker") Source Code]
           li #[a(href="/api/") API Browser]
 
     div.col-md-6
-      h4 Want to know what we're working on?
+      h4 Documentation
       p
-        | Check out the #[a(href="https://forum.pss-tracker.net/c/news") development updates]!
+        | Check out our #[a(href="https://github.com/PSS-Omkar/psstracker/blob/main/README.md") official documentation]!
 
   hr
 
